@@ -6,6 +6,7 @@ import 'package:notification_test/Pages/home_page.dart';
 
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  // you need await to initialize notifications
   await initializeNotifications();
   runApp(const MyApp());
 }

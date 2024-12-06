@@ -22,7 +22,7 @@ Future<void> showPersistentNotification() async {
   await flutterLocalNotificationsPlugin.show(
     0,
     'Good Man Alert!',
-    'There is a good man in the hood!',
+    'There is a good man in the building!',
     notificationDetails,
   );
 }
