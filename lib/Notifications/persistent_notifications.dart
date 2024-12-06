@@ -18,10 +18,11 @@ Future<void> showPersistentNotification() async {
   const NotificationDetails notificationDetails =
       NotificationDetails(android: androidNotificationDetails);
 
+  //this is what will be displayed in the notification
   await flutterLocalNotificationsPlugin.show(
     0,
-    'Black Man Alert!',
-    'There is a nigga in the hood!',
+    'Good Man Alert!',
+    'There is a good man in the hood!',
     notificationDetails,
   );
 }
